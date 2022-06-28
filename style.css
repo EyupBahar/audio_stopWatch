@@ -1,0 +1,63 @@
+body {
+  background-color: lime;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section {
+  padding: 30px;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: solid 1px rgb(225, 225, 225);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 255, 0);
+  transition: background-color 2s ease-out;
+}
+
+.h3 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.stopWatch {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+.playBtn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #c20303;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.stopBtn {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #070707;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
